@@ -30,11 +30,12 @@
         {
             this.btnGenerate = new System.Windows.Forms.Button();
             this.txtPassword = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnGenerate
             // 
-            this.btnGenerate.Location = new System.Drawing.Point(45, 12);
+            this.btnGenerate.Location = new System.Drawing.Point(45, 38);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(100, 23);
             this.btnGenerate.TabIndex = 0;
@@ -44,16 +45,26 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(45, 56);
+            this.txtPassword.Location = new System.Drawing.Point(45, 82);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(100, 20);
             this.txtPassword.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(42, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(105, 13);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Генератор паролей";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(195, 114);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.btnGenerate);
             this.Name = "Form1";
@@ -68,6 +79,7 @@
 
         private System.Windows.Forms.Button btnGenerate;
         private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Label label1;
     }
 }
 

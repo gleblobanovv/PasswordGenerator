@@ -35,5 +35,8 @@ namespace PasswordGenerator
             return new string(Enumerable.Repeat(charSet, length)
                 .Select(s => s[rnd.Next(s.Length)]).ToArray());
         }
+        //private void pass() 
+        //{
+        //}
     }
 }
